@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form submission</title>
+  <link rel="stylesheet" href="style.css">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap'); </style>
+
+</head>
+<body>
+ <div class="container">
+  <p id="description">Dom manipulation form.</p>
+  <h1 id="title">Personal Details</h1>
+
+  <div class="form-group">
+<form action="" id="form">
+    <label class ="form-field" for="first-name">First name</label>
+  <input id="first-name" name="first-name" class ="form-field" type="text" placeholder="Enter your  first name">
+
+  <label class ="form-field" for="lastName">Last name</label>
+  <input id="last-name" class ="form-field" type="text" placeholder="Enter your last name">
+
+  <label class ="form-field" for="address">address</label>
+  <textarea class="form-field" placeholder="Enter your address" id="address"></textarea>
+
+<label class ="form-field" for="pincode">pincode</label>
+<textarea class="form-field" placeholder="Enter your pincode" id="pincode"></textarea>
+<!---<input class ="form-field" type="text" placeholder="Enter your pincode" id="pincode">-->
+
+<label class ="form-field" for="gender">Gender</label>
+<select clas ="form-field" name="gender" id="gender">
+  <option value="">-Select Gender-</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Other">Other</option>
+</select>
+
+<label class ="form-field" for="food">Food</label>
+<select class ="form-field" name="food" id="food">
+  <option value="">Choice Of Food</option>
+  <option value="Salad">Salad</option>
+  <option value="Sandwich">Sandwich</option>
+  <option value="Bread">Bread</option>
+  <option value="Male">Steak</option>
+  <option value="Fish">Fish</option>
+</select>
+
+<label class ="form-field" for="state">State</label>
+<input class ="form-field" type="text" placeholder="Enter your state name" id="state">
+
+<label class ="form-field" for="country">Country</label>
+<input class ="form-field" type="text" placeholder="Enter your Country name" id="country">
+<br>
+<button class ="btn form-field" type="submit" id="submit">submit</button>
+</form>
+</div>
+
+
+<br>
+<table class="table">
+  <thead>
+    <hr>
+  <tr>
+  <th>First name</th>
+  <th>Last name</th>
+  <th>Adress</th>
+  <th>Pincode</th>
+  <th>Gender</th>
+  <th>Choice Of Food</th>
+  <th>State</th>
+  <th>Country</th>
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+<hr>
+</table>
+</div>
+</body>
+<script src="script.js"></script>
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+
+</html>
